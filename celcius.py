@@ -1,3 +1,6 @@
+''''Author : Joshwin James
+Date : 15-10-2024
+To convert celcius to faranheit'''
 tmp=int(input("Enter temperature:"))
 typ=input("Is this in Fahrenheit or celcius")
 if typ in "Cc":
