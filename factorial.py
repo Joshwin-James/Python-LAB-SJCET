@@ -1,10 +1,9 @@
-'''Author : Joshwin James
-Date : 15-10-2024
-To Find factorial of a number'''
-no=int(input("Enter a number :"))
-f=1
-while no>0:
-    f=f*no
-    no-=1
-print(f)
-
+'''Author: Joshwin James
+Date:3-12-24
+factorial using recursion'''
+def factorial(n):
+    if n==1:
+        return 1
+    else:
+        return n*factorial(n-1)
+print(factorial(7))
